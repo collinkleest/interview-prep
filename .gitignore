@@ -1,0 +1,9 @@
+# java / intellij
+.idea/
+*.imi
+
+# swp
+*.swp
+
+# python 
+py_cache/
