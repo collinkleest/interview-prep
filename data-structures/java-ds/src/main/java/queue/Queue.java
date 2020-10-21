@@ -26,6 +26,7 @@ public class Queue<T>  implements Iterable<T>{
         return this.list.removeFirst();
     }
 
+    // check if queue is empty
     public boolean isEmpty(){
         return this.size() == 0;
     }

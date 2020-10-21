@@ -26,14 +26,6 @@ public class Main {
         System.out.println("NEW LINKED LIST: " + ll.toString());
 
         System.out.println("---DOUBLY LINKED LIST STUFF---");
-        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
-        doublyLinkedList.insertFirst(3);
-        doublyLinkedList.insertFirst(5);
-        doublyLinkedList.insertFirst(7);
-        doublyLinkedList.insertLast(8);
-        System.out.println(doublyLinkedList.popLast().data);
-        System.out.println(doublyLinkedList.toString());
-        System.out.println(String.format("Size = %s", doublyLinkedList.size()));
 
     }
 }

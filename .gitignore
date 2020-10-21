@@ -1,6 +1,17 @@
 # java / intellij
-.idea/
+*.idea/
 *.imi
+
+
+# gradle
+gradlew
+gradlew.bat
+*build/
+gradle/
+.idea/
+*.gradle/
+*.lock
+data-structures/java-ds/build/*
 
 # swp
 *.swp
